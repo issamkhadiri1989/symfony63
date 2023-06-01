@@ -10,9 +10,11 @@
         "doctrine/annotations": "^2.0",
         "doctrine/doctrine-bundle": "^2.9",
         "doctrine/doctrine-migrations-bundle": "^3.2",
+        "doctrine/mongodb-odm-bundle": "v4.6.x-dev",
         "doctrine/orm": "^2.15",
         "phpdocumentor/reflection-docblock": "^5.3",
         "phpstan/phpdoc-parser": "^1.21",
+        "symfony/amqp-messenger": "6.3.*",
         "symfony/asset": "6.3.*",
         "symfony/console": "6.3.*",
         "symfony/doctrine-messenger": "6.3.*",
@@ -24,6 +26,7 @@
         "symfony/http-client": "6.3.*",
         "symfony/intl": "6.3.*",
         "symfony/mailer": "6.3.*",
+        "symfony/messenger": "6.3.*",
         "symfony/mime": "6.3.*",
         "symfony/monolog-bundle": "^3.0",
         "symfony/notifier": "6.3.*",
@@ -91,6 +94,7 @@
         }
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.4",
         "phpunit/phpunit": "^9.5",
         "symfony/browser-kit": "6.3.*",
         "symfony/css-selector": "6.3.*",
@@ -98,6 +102,7 @@
         "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^6.3",
         "symfony/stopwatch": "6.3.*",
-        "symfony/web-profiler-bundle": "6.3.*"
+        "symfony/web-profiler-bundle": "6.3.*",
+        "zenstruck/foundry": "^1.33"
     }
 }
